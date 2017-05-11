@@ -1,0 +1,28 @@
+body {
+    background: url('back.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 50px;
+    text-shadow: 0 5px 7px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid black;
+    text-shadow: 0 5px 7px black;
+}
+
+button:hover{
+    border: 5px solid white;
+    color: white;
+    opacity: 0.5;
+}
